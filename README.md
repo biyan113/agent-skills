@@ -89,6 +89,18 @@ npx skills add biyan113/agent-skills --skill react-native-ios-ui-design
 npx skills add biyan113/agent-skills --skill readme-badges
 ```
 
+### `app-store-screenshot-design`
+
+- **路径**: `skills/app-store-screenshot-design/`
+- **版本**: 1.0.0
+- **说明**: 为 iOS/iPadOS 应用生成符合 2026 年主流审美与 App Store 转化逻辑的上架宣传截图方案，覆盖风格选择、截图排序、卖点文案、版式规范、本地化和验收清单。当用户要求设计 App Store 截图、规划宣传图、优化商店截图转化率或准备产品页 A/B 测试时使用。
+
+**安装**
+
+```bash
+npx skills add biyan113/agent-skills --skill app-store-screenshot-design
+```
+
 新增 skill 时：在 `skills/<name>/SKILL.md` 下添加文件，更新本 README 的「可用 Skills」列表后推送即可。
 
 ## 本地验证
