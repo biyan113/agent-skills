@@ -101,6 +101,18 @@ npx skills add biyan113/agent-skills --skill readme-badges
 npx skills add biyan113/agent-skills --skill app-store-screenshot-design
 ```
 
+### `firebase-analytics-integration`
+
+- **路径**: `skills/firebase-analytics-integration/`
+- **版本**: 1.0.0
+- **说明**: Firebase Analytics 跨平台接入 Skill。覆盖 Flutter、React Native、Expo、iOS、Android、Web、Unity、C++ 等多端的 SDK 接入、原生配置、统一抽象层封装、事件字典设计、用户属性、内购订阅埋点、隐私合规与 ATT、Consent 同意流程、DebugView 验证和上线验收清单。当用户要求接入 Firebase Analytics、增加应用统计、设计埋点、统计用户行为、统一多端 Analytics 时使用。
+
+**安装**
+
+```bash
+npx skills add biyan113/agent-skills --skill firebase-analytics-integration
+```
+
 新增 skill 时：在 `skills/<name>/SKILL.md` 下添加文件，更新本 README 的「可用 Skills」列表后推送即可。
 
 ## 本地验证
