@@ -22,9 +22,10 @@ npx skills add biyan113/agent-skills -l
 ```bash
 # 项目级（默认写入当前仓库的 agent skills 目录）
 npx skills add biyan113/agent-skills --skill react-native-ios-ui-design
+npx skills add biyan113/agent-skills --skill readme-badges
 
 # 全局安装
-npx skills add biyan113/agent-skills --skill react-native-ios-ui-design -g
+npx skills add biyan113/agent-skills --skill readme-badges -g
 
 # 安装全部 skill，并写入所有已检测的 agent
 npx skills add biyan113/agent-skills --all
@@ -33,7 +34,7 @@ npx skills add biyan113/agent-skills --all
 也支持完整 URL：
 
 ```bash
-npx skills add https://github.com/biyan113/agent-skills --skill react-native-ios-ui-design
+npx skills add https://github.com/biyan113/agent-skills --skill readme-badges
 ```
 
 ### 3. 更新已安装 skill
@@ -74,6 +75,18 @@ npx skills remove <name> # 卸载
 
 ```bash
 npx skills add biyan113/agent-skills --skill react-native-ios-ui-design
+```
+
+### `readme-badges`
+
+- **路径**: `skills/readme-badges/`
+- **版本**: 1.0.0
+- **说明**: 为 GitHub README 设计、生成并维护徽章。覆盖 skills.sh 安装徽章、Shields.io 静态/动态徽章、微信公众号与品牌自定义徽章（含「字节笔记本」配方）、中文 URL 编码、颜色与 logo 规范、徽章栏排版。
+
+**安装**
+
+```bash
+npx skills add biyan113/agent-skills --skill readme-badges
 ```
 
 新增 skill 时：在 `skills/<name>/SKILL.md` 下添加文件，更新本 README 的「可用 Skills」列表后推送即可。
