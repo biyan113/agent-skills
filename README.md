@@ -113,6 +113,18 @@ npx skills add biyan113/agent-skills --skill app-store-screenshot-design
 npx skills add biyan113/agent-skills --skill firebase-analytics-integration
 ```
 
+### `codebase-documentation`
+
+- **路径**: `skills/codebase-documentation/`
+- **版本**: 1.0.0
+- **说明**: 项目全量分析与文档化 Skill。对当前项目进行完整、深入、基于真实代码的分析，在 docs/ 下生成一套系统化的项目文档（含项目总览、本地启动、目录结构、系统架构、业务架构、Web 前端、管理后台、后端、移动端、接口、数据库、认证权限、状态与数据流、第三方服务、配置、测试、构建部署、监控日志、安全、故障排查、开发规范、实习生入门、术语表、风险与技术债务、功能追踪矩阵、维护检查清单等 25+ 篇文档及 Mermaid 图表）。所有结论需提供真实代码路径、类名、函数名作为依据，不编造、不泄露敏感信息。当用户要求分析项目、生成项目文档、代码库文档化、新人入门文档、架构梳理、输出项目知识库时使用。
+
+**安装**
+
+```bash
+npx skills add biyan113/agent-skills --skill codebase-documentation
+```
+
 新增 skill 时：在 `skills/<name>/SKILL.md` 下添加文件，更新本 README 的「可用 Skills」列表后推送即可。
 
 ## 本地验证
